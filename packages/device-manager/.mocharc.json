@@ -1,0 +1,7 @@
+{
+  "require": "tx-node/register",
+  "watch-extension": "ts",
+  "recursive": true,
+  "reporter": "spec",
+  "forbid-only": true
+}

@@ -1,6 +1,9 @@
 {
-  "name": "device-manager",
-  "version": "0.0.2-alpha.0",
+  "name": "@renegadenavalalliance/device-manager",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.0.2-alpha.1",
   "description": "The central registry system for managing devices.",
   "author": "dtp263 <olin.davis20@gmail.com>",
   "homepage": "https://github.com/dtp263/device-manager#readme",
