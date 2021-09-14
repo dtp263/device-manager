@@ -1,7 +1,12 @@
 {
-  "require": "tx-node/register",
+  "require": "ts-node/register",
   "watch-extension": "ts",
   "recursive": true,
   "reporter": "spec",
-  "forbid-only": true
+  "forbid-only": true,
+  "exclude": [
+    "./src/",
+    "./node_modules/",
+    "./lib/"
+  ]
 }
