@@ -23,7 +23,7 @@
   "scripts": {
     "build": "tsc",
     "test": "mocha __tests__/**/*.ts",
-    "lint": "eslint . --ext .ts",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint-fix": "eslint . --ext .ts --fix"
   },
   "bugs": {
@@ -31,15 +31,20 @@
   },
   "dependencies": {
     "@types/node": "^16.9.1",
+    "eslint-import-resolver-typescript": "^2.5.0",
     "typescript": "^4.4.3"
   },
   "devDependencies": {
     "@types/chai": "^4.2.21",
     "@types/mocha": "^9.0.0",
-    "@typescript-eslint/eslint-plugin": "4.31.1",
-    "@typescript-eslint/parser": "4.31.1",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
     "chai": "^4.3.4",
-    "eslint": "7.32.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "4.0.0",
     "mocha": "^9.1.1",
     "ts-node": "^10.2.1"
   }
